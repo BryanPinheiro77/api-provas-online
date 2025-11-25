@@ -45,12 +45,12 @@ REST com Node.js\
 
 Criar o arquivo `.env`:
 
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=SENHA
-    DB_DATABASE=provas_onlines
-    JWT_SECRET=seuSegredoAqui
-    PORT=3000
+    
+    PORT=5010
+    MYSQL_HOST=localhost
+    MYSQL_USER=root
+    MYSQL_PWD=suaSenha
+    MYSQL_DB=provas_online
 
 Rodar:
 
