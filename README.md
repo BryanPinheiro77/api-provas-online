@@ -65,36 +65,22 @@ Execute o arquivo no MySQL Workbench (ou qualquer cliente SQL) para criar o sche
 
 ## ▶️ Como Executar o Projeto
 
----
+📌 Back-end (server)
 
-## 📌 Back-end (server)
+    cd server
+    npm install
 
-Instale as dependências:
+Criar o arquivo `.env`:
 
-```
-cd back-end
-npm install
-```
+    PORT=5010
+    MYSQL_HOST=localhost
+    MYSQL_USER=root
+    MYSQL_PWD=suaSenha
+    MYSQL_DB=provas_online
 
-Crie o arquivo `.env`:
+Rodar:
 
-```
-PORT=5010
-MYSQL_HOST=localhost
-MYSQL_USER=root
-MYSQL_PWD=SUA_SENHA_AQUI
-MYSQL_DB=provas_online
-```
-
-Execute o servidor:
-
-```
-npm run dev
-```
-
----
-
-## 📌 Front-end (client)
+    npm run dev
 
 Instale as dependências:
 
