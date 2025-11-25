@@ -6,7 +6,7 @@
 ![Badge](https://img.shields.io/badge/Status-Finalizado-green)
 
 ---
-
+a
 ## 📌 Sobre o Projeto
 
 O **Provas Online** é um sistema completo para criação, execução e correção automática de provas.
@@ -80,13 +80,18 @@ Criar o arquivo `.env`:
 
 Rodar:
 
-    npm run dev
+    npm start
 
+### 📌 Front-end (client)
 Instale as dependências:
 
 ```
 cd front-end
 npm install
+```
+
+Rodar:
+```
 npm run dev
 ```
 
