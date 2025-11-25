@@ -6,7 +6,6 @@
 ![Badge](https://img.shields.io/badge/Status-Finalizado-green)
 
 ---
-a
 ## 📌 Sobre o Projeto
 
 O **Provas Online** é um sistema completo para criação, execução e correção automática de provas.
