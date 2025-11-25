@@ -3,7 +3,7 @@
 ![Badge](https://img.shields.io/badge/Node.js-Backend-green)
 ![Badge](https://img.shields.io/badge/MySQL-Database-blue)
 ![Badge](https://img.shields.io/badge/React-Frontend-61DAFB)
-![Badge](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
+![Badge](https://img.shields.io/badge/Status-Finalizado-green)
 
 ---
 
