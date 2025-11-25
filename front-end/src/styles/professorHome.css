@@ -1,0 +1,121 @@
+/* ======= Fundo geral ======= */
+body {
+  background: linear-gradient(135deg, #dde7ff, #f2e4ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+}
+
+.btn.sair {
+  position: fixed;      
+  top: 20px;
+  right: 20px;
+  background: #e63946;
+  padding: 10px 18px;
+  z-index: 999;          
+}
+
+.btn.sair:hover {
+  background: #c62828;
+}
+
+/* ======= Container ======= */
+.prof-home {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* ======= Card moderno ======= */
+.card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(14px);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ======= Títulos ======= */
+.card h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  color: #0e0e0e;
+}
+
+.card h2 {
+  margin: 0 0 15px 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1c1c1c; /* 🔥 agora aparece muito melhor */
+}
+
+.card p {
+  color: #333;
+}
+
+/* ======= Botão ======= */
+.btn {
+  background: linear-gradient(90deg, #006bff, #0054d6);
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+/* HOVER corrigido */
+.btn:hover {
+  transform: scale(1.03);
+  filter: brightness(1.15);   /* 🔥 agora clareia em vez de escurecer */
+  color: #ffffff !important;  /* 🔥 garante que o texto continue branco */
+}
+
+/* ======= Lista de provas ======= */
+.provas-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ======= Card de prova ======= */
+.prova-item {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.prova-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* ======= Títulos das provas ======= */
+.prova-item h3 {
+  font-size: 20px;
+  margin: 0 0 8px 0;
+  color: #121212;
+}
+
+.prova-item p {
+  color: #444;
+}
+
+/* ======= Animação ======= */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,99 @@
+.responder-page h1 {
+  color: #222;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.opcao {
+  display: block;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.btn-enviar {
+  background: #000;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-enviar:hover {
+  background: #222;
+}
+
+/* ⭐ MODAL */
+.modal-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.2s ease;
+}
+
+.modal-card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 5px 22px rgba(0,0,0,0.2);
+  animation: slideUp 0.25s ease;
+}
+
+.modal-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.modal-card .nota {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #1e90ff;
+}
+
+.btn-ok {
+  background: #1e90ff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn-ok:hover {
+  background: #1773c7;
+}
+
+/* ANIMAÇÕES */
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

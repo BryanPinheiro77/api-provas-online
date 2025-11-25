@@ -1,0 +1,127 @@
+.prova-edit-card input,
+.prova-edit-card textarea,
+.pergunta-card input,
+.pergunta-card textarea {
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+}
+
+
+/* CONTAINER PRINCIPAL */
+.prova-edit-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.prova-edit-card {
+  background: #ffffff;
+  padding: 40px 45px;       /* ↔ padding igual dos dois lados */
+  border-radius: 16px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: auto;            /* garante centralização */
+}
+
+
+/* TÍTULOS */
+.prova-edit-card h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #222;
+}
+
+.prova-edit-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: #222;
+}
+
+/* INPUTS PRINCIPAIS (TÍTULO E DESCRIÇÃO) */
+.prova-edit-card > input,
+.prova-edit-card > textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #f2f2f2;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* BLOCO DE PERGUNTA */
+.pergunta-card {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 20px 25px;      /* deixe 25px para igualar visualmente */
+  margin-bottom: 25px;
+}
+
+
+/* INPUT DO TEXTO DA PERGUNTA */
+.pergunta-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  margin-bottom: 15px;
+}
+
+.pergunta-input,
+.opcao-texto {
+  color: #222 !important;   /* texto preto para sempre aparecer */
+}
+
+/* OPÇÕES */
+.opcao {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+/* OPÇÃO CORRETA DESTACADA */
+.opcao.correta {
+  background: #e8f3ff;
+  border-left: 4px solid #1e90ff;
+  border-radius: 10px;
+}
+
+/* CAIXAS DE TEXTO DAS OPÇÕES */
+.opcao-texto {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  background: #fff;
+  color: #222;
+}
+
+/* RADIO */
+.opcao input[type="radio"] {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+/* BOTÃO SALVAR */
+.btn-salvar {
+  background: #28a745;
+  color: white;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-salvar:hover {
+  background: #1e7e34;
+}

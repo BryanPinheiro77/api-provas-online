@@ -1,0 +1,53 @@
+.historico-container {
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+  color: #222;
+}
+
+.titulo {
+  font-size: 42px;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.card-historico {
+  background: #fff;
+  padding: 55px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.card-historico h2 {
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.card-historico p {
+  margin: 6px 0;
+  color: #333;
+}
+
+.card-historico .data {
+  color: #666;
+  font-size: 20px;
+}
+
+
+
+
+
+.hist-aluno h1 {
+  margin-bottom: 20px;
+}
+
+.hist-aluno .card {
+  padding: 15px;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}

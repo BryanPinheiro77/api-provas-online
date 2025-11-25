@@ -1,0 +1,89 @@
+/* CENTRALIZA TUDO NA TELA */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CAIXA DO LOGIN */
+.login-container {
+  width: 380px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+/* TÍTULO */
+.login-container h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.login-container input::placeholder {
+  color: #777 !important;
+  opacity: 1 !important;
+}
+
+/* INPUTS */
+.login-container input {
+  color: #333 !important;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.login-container input:focus {
+  background: #fff;
+  border-color: #0077ff;
+}
+
+/* BOTÃO */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: #0077ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.login-container button:hover {
+  background: #005fcc;
+}
+
+/* ERRO */
+.erro {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
