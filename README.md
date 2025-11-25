@@ -66,7 +66,7 @@ Execute o arquivo no MySQL Workbench (ou qualquer cliente SQL) para criar o sche
 
 📌 Back-end (server)
 
-    cd server
+    cd back-end
     npm install
 
 Criar o arquivo `.env`:
