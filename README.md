@@ -70,8 +70,7 @@ Acessar no navegador: http://localhost:5173
 • Ranking de alunos\
 • Upload de imagens nas perguntas
 
-👨‍💻 Autor\
-Bryan Mendes Pinheiro
-
-🔗 LinkedIn\
-🔗 GitHub
+## 👨‍💻 Autor  
+**Bryan Mendes Pinheiro**  
+- [LinkedIn](https://www.linkedin.com/in/bryan-mendes-0406b92b5)  
+- [GitHub](https://github.com/BryanPinheiro77)  
